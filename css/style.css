@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Roboto sans-serif;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-nav a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 30px;
+}
+
+.navbar-nav select{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    margin: 0 30px;
+    border: none;
+}
+.navbar-nav select option{
+    color: black;
+}
+.navbar-icons div{
+    padding: 0 15px ;
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+}
+.hero-group h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.hero-group span{
+    color: #EE4248;
+}
+.hero-group{
+    width: 545px;
+    margin-left: 40px;
+}
+.hero-group p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    padding-bottom: 20px;
+}
+.hero-group button{
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none #EE4248;
+    transition: 2s;
+}
+.hero-group button:hover{
+    transform: scale(1.1) ;
+    background: transparent;
+    color: cornflowerblue;
+}
+.hero-btn {
+    padding: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80vh ;
+
+}
+.hero-img{
+   display: flex;
+
+}
+.about-block h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    width: 454px;
+    padding-bottom: 20px;
+
+
+}
+.about-block span{
+    color: #EE4248;
+}
+.about-block p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 520px;
+    color: #30444E;
+    padding-bottom: 25px;
+
+}
+.about-block span{
+color: #EE4248;
+}
+#about{
+    background: #F7F7F7;
+    padding: 40px 0;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-title {
+    padding: 40px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+}
+.product-global h1{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding-top: 20px;
+}
+.product-global p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    width: 319px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.product-global button{
+    width: 119px;
+    height: 42px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 1px solid #EE4248;
+    transition: 2s;
+
+}
+.product-global button:hover{
+    background: transparent;
+    transform: scale(1.1) ;
+    color: #EE4248;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 100px;
+}
+#contact{
+    padding: 30px;
+}
+.contact-was h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color:black;
+}
+.contact-was p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    width: 317px;
+    color: grey;
+}
+.contact-war h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color:#000000;
+    padding-bottom: 20px;
+}
+.contact-war p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color:grey;
+    width: 269px;
+}
+.contact-top-text {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 700px;
+}
+
+#work{
+    background:#EE4248 ;
+}
+.work{
+    padding: 40px 0;
+}
+.work h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center ;
+    color: #FFFFFF;
+
+
+}
